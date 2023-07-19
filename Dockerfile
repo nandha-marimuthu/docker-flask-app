@@ -8,7 +8,7 @@ COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
-# Bundle app source
+
 COPY . .
 
 EXPOSE 3000
