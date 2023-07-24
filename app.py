@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Welcome to Prodapt Solutions'
+    return 'Welcome to Prodapt Solutions HQ'
 
 
 if __name__ == "__main__":
